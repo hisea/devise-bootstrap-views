@@ -6,7 +6,8 @@ Here are some of the highlights:
 * Used Bootstrap responsive columns.
 * I18n Support.
 
-This gem copies most of its code from [devise-i18n-views](https://github.com/mcasimir/devise-i18n-views) gem.
+WARNING:
+This gem copies lots of its code from [devise-i18n-views](https://github.com/mcasimir/devise-i18n-views) gem.
 
 ## Screenshot
 ![Screenshot](https://raw.githubusercontent.com/hisea/devise-bootstrap-views/master/Screenshot.png)
