@@ -9,7 +9,7 @@ Here are some of the highlights:
 This gem copies most of its code from [devise-i18n-views](https://github.com/mcasimir/devise-i18n-views) gem.
 
 ## Screenshot
-![Screenshot](https://github.com/hisea/devise-bootstrap-views/raw/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/hisea/devise-bootstrap-views/master/Screenshot.png)
 
 ## Installation
 
