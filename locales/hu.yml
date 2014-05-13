@@ -1,0 +1,59 @@
+hu:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: Megerősítő levél újraküldése
+    mailer:
+      confirmation_instructions:
+        action: Fiók megerősítése
+        greeting: Kedves %{reciipient}!
+        instruction: ! 'A fiók megerősítéséhez rá kell kattintani az alábbi linkre:'
+        subject: A fiók megerősítéséhez szükséges teendők
+      reset_password_instructions:
+        action: Jelszó megváltoztatása
+        greeting: Kedves %{recipient}!
+        instruction: Ön, vagy valaki más az ön nevében jelszóváltoztatást kérvényezett, mely a lenti linkre kattintva lehetséges.
+        instruction_2: Amennyiben ön nem kezdeményezte a jelszavának megváltoztatását, kérem hagyja figyelmen kívül ezt a levelet.
+        instruction_3: Amennyiben nem kattint az alábbi linkre, jelszava továbbra is ugyanaz marad, mint eddig.
+        subject: A jelszó megváltoztatásához szükséges teendők
+      unlock_instructions:
+        action: Zárolás feloldása
+        greeting: Kedves %{recipient}!
+        instruction: ! 'A zárolás feloldásához az alábbi linkre kell kattintani:'
+        message: A felhasználói fiókja zárolva lett túl sok sikertelen belépési kísérlet miatt.
+        subject: Fiókzárolás feloldásához szükséges teendők
+    passwords:
+      new:
+        forgot_your_password: Elfelejtette a jelszavát?
+        send_me_reset_password_instructions: Jelszóviszaállítási teendők küldése
+      edit:
+        change_your_password: Jelszó megváltoztatása
+        new_password: Új jelszó
+        confirm_new_password: Jelszó megerősítése
+        change_my_password: Jelszó megváltoztatása
+    registrations:
+      edit:
+        are_you_sure: Biztos benne?
+        cancel_my_account: Fiók megszüntetése
+        leave_blank_if_you_don_t_want_to_change_it: csak változás esetén kitöltendő
+        title: "%{resource} módosítása"
+        we_need_your_current_password_to_confirm_your_changes: a változtatás végrehajtásához szükséges a jelenlegi jelszó
+        update: Módosítás
+        cancel_my_account: Fiók megszüntetése
+        unhappy: Szomorú
+      new:
+        sign_up: Regisztráció
+    sessions:
+      new:
+        sign_in: Belépés
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: Nem kapta meg a megerősítő levelet?
+        didn_t_receive_unlock_instructions: Nem kapta meg a feloldáshoz a levelet?
+        forgot_your_password: Elfelejtette a jelszavát?
+        sign_in: Belépés
+        sign_in_with_provider: "%{provider} belépés"
+        sign_up: Regisztráció
+    unlocks:
+      new:
+        resend_unlock_instructions: Feloldási teendők újraküldése

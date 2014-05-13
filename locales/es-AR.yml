@@ -1,0 +1,51 @@
+es-AR:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: Reenviar instrucciones de confirmación
+    mailer:
+      confirmation_instructions:
+        action: Confirmar mi cuenta
+        greeting: Bienvenido %{recipient}!
+        instruction: ! 'Puedes confirmar tu cuenta a través del siguiente enlace:'
+        subject: Instrucciones de confirmación
+      reset_password_instructions:
+        action: Cambiar mi contraseña
+        greeting: Hola %{recipient}!
+        instruction: Alguien ha solicitado cambiar tu contraseña, puedes hacerlo a través del siguiente enlace.
+        instruction_2: Si no solicitaste esto, por favor ignora este e-mail.
+        instruction_3: Tu contraseña no cambiará hasta que accedas al siguiente enlace y crees una nueva.
+        subject: Instrucciones para cambiar tu contraseña
+      unlock_instructions:
+        action: Desbloquear mi cuenta
+        greeting: Hola %{recipient}!
+        instruction: ! 'Haz click en el siguiente enlace para desbloquear tu contraseña:'
+        message: Tu cuenta ha sido bloqueada debido a un excesivo número de intentos inválidos de acceso.
+        subject: Instrucciones de desbloqueo
+    passwords:
+      new:
+        forgot_your_password: Olvidaste tu contraseña?
+        send_me_reset_password_instructions: Enviar instrucciones para resetear la contraseña
+    registrations:
+      edit:
+        are_you_sure: Estás seguro/a?
+        cancel_my_account: Cancelar mi cuenta
+        leave_blank_if_you_don_t_want_to_change_it: deja en blanco si no deseas cambiarla
+        title: Editar %{resource}
+        we_need_your_current_password_to_confirm_your_changes: necesitamos tu contraseña actual para confirmar tus cambios
+      new:
+        sign_up: Registrarse
+    sessions:
+      new:
+        sign_in: Ingresar
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: No recibiste instrucciones de confirmación?
+        didn_t_receive_unlock_instructions: No recibiste instrucciones de desbloqueo?
+        forgot_your_password: Olvidaste tu contraseña?
+        sign_in: Ingresar
+        sign_in_with_provider: Ingresar con %{provider}
+        sign_up: Registrarse
+    unlocks:
+      new:
+        resend_unlock_instructions: Reenviar instrucciones de desbloqueo

@@ -1,0 +1,57 @@
+pl:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: Wyślij ponownie instrukcje aktywacji
+    mailer:
+      confirmation_instructions:
+        action: Potwierdź swoje konto
+        greeting: Witaj %{recipient}!
+        instruction: ! 'Możesz potwierdzić swoje konto przy pomocy poniższego linku:'
+        subject: Instrukcja aktywacji konta
+      reset_password_instructions:
+        action: Zmień swoje hasło
+        greeting: Cześć %{recipient}!
+        instruction: 'Ktoś zażądał zmiany hasła do Twojego konta. Hasło możesz zmienić wchodząc na poniższy link:'
+        instruction_2: Jeśli to nie Ty zażądałeś zmiany hasła, proszę zignoruj tę wiadomość.
+        instruction_3: Twoje hasło nie ulegnie zmianie dopóki nie wejdziesz na poniższy link i nie ustawisz nowego.
+        subject: Instrukcja zmiany hasła
+      unlock_instructions:
+        action: Odblokuj swoje konto
+        greeting: Cześć %{recipient}!
+        instruction: ! 'Kliknij poniższy link aby odblokować swoje konto.'
+        message: Twoje konto zostało zablokowane z powodu zbyt dużej ilości nieprawidłowych prób zalogowania się na nie.
+        subject: Instrukcja odblokowania konta
+    passwords:
+      new:
+        forgot_your_password: Zapomniałeś swoje hasło?
+        send_me_reset_password_instructions: Wyślij instrukcje zmiany hasła
+      edit:
+        change_your_password: Zmień swoje hasło
+        new_password: Nowe hasło
+        confirm_new_password: Powtórz nowe hasło
+        change_my_password: Zmień swoje hasło
+    registrations:
+      edit:
+        are_you_sure: Jesteś pewny?
+        cancel_my_account: Anuluj moje konto
+        leave_blank_if_you_don_t_want_to_change_it: pozostaw puste jeśli nie chcesz wprowadzać zmian
+        title: Edytuj %{resource}
+        we_need_your_current_password_to_confirm_your_changes: potrzebujemy Twojego bieżącego hasła aby potwierdzić zmiany
+        update: Zaktualizuj
+      new:
+        sign_up: Zarejestruj się
+    sessions:
+      new:
+        sign_in: Zaloguj się
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: Nie otrzymałeś instrukcji aktywacji konta?
+        didn_t_receive_unlock_instructions: Nie otrzymałeś instrukcji odblokowania konta?
+        forgot_your_password: Zapomniałeś hasło?
+        sign_in: Zaloguj się
+        sign_in_with_provider: Zaloguj się przez %{provider}
+        sign_up: Zarejestruj się
+    unlocks:
+      new:
+        resend_unlock_instructions: Wyślij instrukcje odblokowania konta

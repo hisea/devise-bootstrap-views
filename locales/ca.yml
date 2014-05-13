@@ -1,0 +1,59 @@
+ca:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: Reenviar instruccions de confirmació
+    mailer:
+      confirmation_instructions:
+        action: Confirmar el meu compte
+        greeting: Benvingut %{recipient}!
+        instruction: ! "Pots confirmar el correu electrònic del teu compte a través d'aquest enllaç:"
+        subject: Instruccions de confirmació 
+      reset_password_instructions:
+        action: Canviar la meva contrasenya 
+        greeting: Hola %{recipient}! 
+        instruction: Algú ha sol·licitat un enllaç per a canviar la teva contrasenya, pots fer-ho amb el següent enllaç. 
+        instruction_2: Si tu no ho has sol·licitat, si us plau ignora aquest email. 
+        instruction_3: La teva contrasenya no serà canviada fins que accedeixis a l'enllaç i en creïs una nova.   
+        subject: Instruccions per a regenerar la contrasenya
+      unlock_instructions:
+        action: Desbloquejar el meu compte 
+        greeting: Hola %{recipient}!
+        instruction: ! 'Obre el següent enllaç per a desbloquejar el teu compte:'
+        message: El teu compte s'ha bloquejat a causa d'una quantitat excessiva d'intents fallits per a accedir-hi. 
+        subject: Instruccions de desbloqueig
+    passwords:
+      new:
+        forgot_your_password: Has oblidat la teva contrasenya?    
+        send_me_reset_password_instructions: Enviar les instruccions per a regenerar la meva contrasenya 
+      edit:
+        change_your_password: Canviar la teva contrasenya
+        new_password: Nova contrasenya
+        confirm_new_password: Confirmar nova contrasenya
+        change_my_password: Canviar la meva contrasenya 
+    registrations:
+      edit:
+        are_you_sure: Estàs segur?
+        cancel_my_account: Cancel·lar el meu compte
+        leave_blank_if_you_don_t_want_to_change_it: deixa'l en blanc si no el vols canviar 
+        title: Editar %{resource}
+        we_need_your_current_password_to_confirm_your_changes: necessitem la teva contrasenya actual per a confirmar els canvis 
+        update: Actualitzar
+        cancel_my_account: Cancel·lar el meu compte
+        unhappy: Descontent
+      new:
+        sign_up: Registrar-se
+    sessions:
+      new:
+        sign_in: Iniciar sessió 
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: No has rebut les instruccions de confirmació? 
+        didn_t_receive_unlock_instructions: No has rebut les instruccions de desbloqueig? 
+        forgot_your_password: Has oblidat la teva contrasenya?
+        sign_in: Iniciar sessió 
+        sign_in_with_provider: Iniciar sessió amb %{provider}
+        sign_up: Registrar-se
+    unlocks:
+      new:
+        resend_unlock_instructions: Reenviar instruccions de desbloqueig

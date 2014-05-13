@@ -1,0 +1,57 @@
+zh-CN:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: 重新发送确认指示
+    mailer:
+      confirmation_instructions:
+        action: 确认我的帐户
+        greeting: 欢迎 %{recipient}!
+        instruction: ! '您可以通过下面的链接确认您的帐户的电子邮件:'
+        subject: 确认指示
+      reset_password_instructions:
+        action: 更改我的密码
+        greeting: 你好 %{recipient}!
+        instruction: 有人要求更改密码的链接，并通过下面的链接，你可以做到这一点。
+        instruction_2: 如果你没有要求，请忽略此电子邮件。
+        instruction_3: 您的密码将不会改变，直到你访问上面的链接，并创建一个新的。
+        subject: 重设密码的说明
+      unlock_instructions:
+        action: 帐户解锁
+        greeting: 你好 %{recipient}!
+        instruction: ! '点击下面的链接到您的帐户解锁:'
+        message: 您的帐户已被锁定由于过量的不成功的登录尝试。
+        subject: 解锁说明
+    passwords:
+      new:
+        forgot_your_password: 忘记密码？
+        send_me_reset_password_instructions: 给我发送重设密码的说明
+      edit:
+        change_your_password: 更改您的密码
+        new_password: 新密码
+        confirm_new_password: 确认新密码
+        change_my_password: 更改我的密码
+    registrations:
+      edit:
+        are_you_sure: 你确定吗？
+        cancel_my_account: 取消我的帐户
+        leave_blank_if_you_don_t_want_to_change_it: 你不想去改变它，不需要填写
+        title: 修改 %{resource}
+        we_need_your_current_password_to_confirm_your_changes: 我们需要您的当前密码以确认您的更改
+        update: 更新
+      new:
+        sign_up: 注册
+    sessions:
+      new:
+        sign_in: 登录
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: 没有收到确认指令？
+        didn_t_receive_unlock_instructions: 没有收到解锁指令？
+        forgot_your_password: 忘记密码？
+        sign_in: 登录
+        sign_in_with_provider:  用 %{provider} 登录
+        sign_up: 注册
+    unlocks:
+      new:
+        resend_unlock_instructions: 重发解锁指示

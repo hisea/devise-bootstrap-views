@@ -1,0 +1,51 @@
+es:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: Reenviar instrucciones de confirmación
+    mailer:
+      confirmation_instructions:
+        action: Confirmar mi cuenta
+        greeting: ¡Bienvenido %{recipient}!
+        instruction: ! 'Usted puede confirmar el correo electrónico de su cuenta a través de este enlace:'
+        subject: Instrucciones de confirmación
+      reset_password_instructions:
+        action: Cambiar mi contraseña
+        greeting: ¡Hola %{recipient}!
+        instruction: Alguien ha solicitado un enlace para cambiar su contraseña, lo que se puede realizar con el siguiente enlace.
+        instruction_2: Si usted no lo ha solicitado, por favor ignore este correo electrónico.
+        instruction_3: Su contraseña no será cambiada hasta que usted acceda el enlace y cree uno nuevo.
+        subject: Instrucciones para resetear contraseña
+      unlock_instructions:
+        action: Desbloquear mi cuenta
+        greeting: ¡Hola %{recipient}!
+        instruction: ! 'Haga click en el siguiente enlace para desbloquear su cuenta:'
+        message: Su cuenta ha sido bloqueada debido a una cantidad excesiva de intentos infructuosos para ingresar.
+        subject: Instrucciones de desbloqueo
+    passwords:
+      new:
+        forgot_your_password: ¿Ha olvidado su contraseña?
+        send_me_reset_password_instructions: Envíeme las instrucciones para resetear mi contraseña
+    registrations:
+      edit:
+        are_you_sure: ¿Está usted seguro?
+        cancel_my_account: Anular mi cuenta
+        leave_blank_if_you_don_t_want_to_change_it: dejar en blanco si no desea cambiarlo
+        title: Editar %{resource}
+        we_need_your_current_password_to_confirm_your_changes: necesitamos su contraseña actual para confirmar los cambios
+      new:
+        sign_up: Registrarse
+    sessions:
+      new:
+        sign_in: Iniciar sésion
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: ¿No ha recibido las instrucciones de confirmación?
+        didn_t_receive_unlock_instructions: No ha recibido instrucciones para desbloquear?
+        forgot_your_password: ¿Ha olvidado su contraseña?
+        sign_in: Iniciar sésion
+        sign_in_with_provider: Iniciar sésion con %{provider}
+        sign_up: Registrarse
+    unlocks:
+      new:
+        resend_unlock_instructions: Reenviar instrucciones para desbloquear

@@ -1,0 +1,59 @@
+nl:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: Verstuur bevestiging-instructies opnieuw
+    mailer:
+      confirmation_instructions:
+        action: Bevestig mijn account
+        greeting: Welkom %{recipient}!
+        instruction: ! 'U kunt uw email bevestigen via onderstaande link:'
+        subject: Bevestiging-instructies
+      reset_password_instructions:
+        action: Verander mijn wachtwoord
+        greeting: Hallo %{recipient}!
+        instruction: Iemand heeft een link gevraagd om uw wachtwoord te wijzigen; dit kan via onderstaande link.
+        instruction_2: Als u dit niet heeft gedaan, negeer deze mail alstublieft.
+        instruction_3: Uw wachtwoord zal niet wijzigen totdat u bovenstaande link heeft gevolgd en een nieuw wachtwoord heeft aangevraagd.
+        subject: Reset wachtwoord instructies
+      unlock_instructions:
+        action: Ontgrendel mijn account
+        greeting: Hallo %{recipient}!
+        instruction: ! 'U kunt uw account ontgrendelen via onderstaande link:'
+        message: Uw account is vergrendeld wegens te veel mislukte pogingen in te loggen.
+        subject: Ontgrendel instructies
+    passwords:
+      new:
+        forgot_your_password: Wachtwoord vergeten?
+        send_me_reset_password_instructions: Stuur me wachtwoord reset instructies
+      edit:
+        change_your_password: Wijzig uw wachtwoord
+        new_password: Nieuw wachtwoord
+        confirm_new_password: Bevestig nieuw wachtwoord
+        change_my_password: Verander mijn wachtwoord
+    registrations:
+      edit:
+        are_you_sure: Weet u het zeker?
+        cancel_my_account: Annuleer mijn account
+        leave_blank_if_you_don_t_want_to_change_it: laat leeg als u het niet wilt wijzigen
+        title: Bewerk %{resource}
+        we_need_your_current_password_to_confirm_your_changes: we hebben uw huidige wachtwoord nodig om uw veranderingen te bevestigen
+        update: Bijwerken
+        cancel_my_account: Annuleer mijn account
+        unhappy: Niet blij
+      new:
+        sign_up: Maak account aan
+    sessions:
+      new:
+        sign_in: Inloggen
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: Geen bevestigingsmail ontvangen?
+        didn_t_receive_unlock_instructions: Geen ontgrendel-instructies ontvangen?
+        forgot_your_password: Wachtwoord vergeten?
+        sign_in: Inloggen
+        sign_in_with_provider: Inloggen met %{provider}
+        sign_up: Maak account aan
+    unlocks:
+      new:
+        resend_unlock_instructions: Verstuur ontgrendel-instructies opnieuw

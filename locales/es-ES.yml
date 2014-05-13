@@ -1,0 +1,59 @@
+es:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: Reenviar instrucciones de confirmación
+    mailer:
+      confirmation_instructions:
+        action: Confirmar mi cuenta
+        greeting: ¡Bienvenid@ %{recipient}!
+        instruction: ! 'Puedes confirmar el email de tu cuenta a través de este enlace:'
+        subject: Instrucciones de confirmación
+      reset_password_instructions:
+        action: Cambiar mi contraseña
+        greeting: ¡Hola %{recipient}! 
+        instruction: Alguien ha solicitado un enlace para cambiar tu contraseña, lo que se puede realizar con el siguiente enlace.
+        instruction_2: Si tú no lo has solicitado, por favor ignora este email.
+        instruction_3: Tu contraseña no será cambiada hasta que accedas al enlace y crees una nueva.  
+        subject: Instrucciones para resetear la contraseña
+      unlock_instructions:
+        action: Desbloquear mi cuenta
+        greeting: ¡Hola %{recipient}!
+        instruction: ! 'Haz click en el siguiente enlace para desbloquear tu cuenta:'
+        message: Tu cuenta se ha bloqueado debido a una cantidad excesiva de intentos fallidos para acceder.
+        subject: Instrucciones de desbloqueo
+    passwords:
+      new:
+        forgot_your_password: ¿Olvidaste tu contraseña?     
+        send_me_reset_password_instructions: Enviar las instrucciones para resetear mi contraseña 
+      edit:
+        change_your_password: Cambiar tu contraseña
+        new_password: Nueva contraseña
+        confirm_new_password: Confirmar nueva contraseña
+        change_my_password: Cambiar mi contraseña
+    registrations:
+      edit:
+        are_you_sure: ¿Estás segur@?
+        cancel_my_account: Cancelar mi cuenta
+        leave_blank_if_you_don_t_want_to_change_it: déjalo en blanco si no lo quieres cambiar
+        title: Editar %{resource}
+        we_need_your_current_password_to_confirm_your_changes: necesitamos tu contraseña actual para confirmar los cambios
+        update: Actualizar
+        cancel_my_account: Cancelar mi cuenta
+        unhappy: Descontento
+      new:
+        sign_up: Registrarse
+    sessions:
+      new:
+        sign_in: Iniciar sesión
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: ¿No has recibido las instrucciones de confirmación?
+        didn_t_receive_unlock_instructions: ¿No has recibido las instrucciones de desbloqueo? 
+        forgot_your_password: ¿Olvidaste tu contraseña?
+        sign_in: Iniciar sesión  
+        sign_in_with_provider: Iniciar sesión con %{provider}
+        sign_up: Registrarse
+    unlocks:
+      new:
+        resend_unlock_instructions: Reenviar instrucciones de desbloqueo

@@ -1,0 +1,51 @@
+it:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: Invia di nuovo le istruzioni per la conferma
+    mailer:
+      confirmation_instructions:
+        action: Conferma il mio account
+        greeting: Benvenuto %{recipient}!
+        instruction: ! 'Puoi confermare il tuo account cliccando sul link qui sotto:'
+        subject: Istruzioni per la conferma
+      reset_password_instructions:
+        action: Cambia la mia password
+        greeting: Ciao %{recipient}!
+        instruction: Qualcuno ha richiesto di resettare la tua password, se lo vuoi davvero puoi farlo cliccando sul link qui sotto.
+        instruction_2: Se non sei stato tu ad effettuare questa richiesta puoi ignorare questa mail.
+        instruction_3: La tua password non cambierà finchè non accederai al link sopra.
+        subject: Istruzioni per resettare la password
+      unlock_instructions:
+        action: Sblocca il mio account
+        greeting: Ciao %{recipient}!
+        instruction: ! 'Clicca sul link qui sotto per sbloccare il tuo account:'
+        message: Il tuo account è stato bloccato a seguito di un numero eccessivo di tentativi di accesso falliti.
+        subject: Istruzioni per lo sblocco
+    passwords:
+      new:
+        forgot_your_password: Password dimenticata?
+        send_me_reset_password_instructions: Inviami le istruzioni per resettare la password
+    registrations:
+      edit:
+        are_you_sure: Sei sicuro?
+        cancel_my_account: Rimuovi il mio account
+        leave_blank_if_you_don_t_want_to_change_it: lascia in bianco se non vuoi cambiarla
+        title: Modifica %{resource}
+        we_need_your_current_password_to_confirm_your_changes: abbiamo bisogno della tua password attuale per confermare i cambiamenti
+      new:
+        sign_up: Registrati
+    sessions:
+      new:
+        sign_in: Accedi
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: Non hai ricevuto le istruzioni per la conferma?
+        didn_t_receive_unlock_instructions: Non hai ricevuto le istruzioni per lo sblocco?
+        forgot_your_password: Password dimenticata?
+        sign_in: Accedi
+        sign_in_with_provider: Accedi con %{provider}
+        sign_up: Registrati
+    unlocks:
+      new:
+        resend_unlock_instructions: Invia di nuovo le istruzioni per lo sblocco

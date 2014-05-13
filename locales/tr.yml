@@ -1,0 +1,51 @@
+tr:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: Onaylama talimatlarını tekrar gönder
+    mailer:
+      confirmation_instructions:
+        action: Hesabımı onayla
+        greeting: Hoşgeldiniz %{recipient}!
+        instruction: ! 'E-postanızı aşağıdaki bağlantıyı takip ederek onaylayabilirsiniz:'
+        subject: Onaylama talimatları
+      reset_password_instructions:
+        action: Parolamı değiştir
+        greeting: Merhaba %{recipient}!
+        instruction: Birisi parolanızı değiştirmek için bir istek gönderdi, aşağıdaki bağlantıyı kullanarak bunu yapabilirsiniz.
+        instruction_2: Eğer bu isteği siz yapmadıysanız, bu e-postayı görmezden gelebilirsiniz.
+        instruction_3: Parolanız yukarıdaki bağlantıyı kullanıp, yeni bir parola oluşturmadığınız sürece değişmeyecektir.
+        subject: Parola yenileme talimatları
+      unlock_instructions:
+        action: Hesabımı geri aç
+        greeting: Merhaba %{recipient}!
+        instruction: ! 'Hesabınızı geri açmak için aşağıdaki bağlantıyı tıklayınız:'
+        message: Hesabınız çok fazla başarısız giriş denemesinden dolayı kilitlenmiştir.
+        subject: Hesap geri açma talimatları
+    passwords:
+      new:
+        forgot_your_password: Parolanızı mı unuttunuz?
+        send_me_reset_password_instructions: Parola yenileme talimatlarını gönder
+    registrations:
+      edit:
+        are_you_sure: Emin misiniz?
+        cancel_my_account: Hesabımı iptal et
+        leave_blank_if_you_don_t_want_to_change_it: değiştirmek istemiyorsanız boş bırakın
+        title: ! '%{resource} düzenle'
+        we_need_your_current_password_to_confirm_your_changes: değişikleri onaylamak için şu anki parolanız gerekli
+      new:
+        sign_up: Kaydol
+    sessions:
+      new:
+        sign_in: Giriş yap
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: Onaylama talimatlarını almadınız mı?
+        didn_t_receive_unlock_instructions: Hesap geri açma talimatlarını almadınız mı?
+        forgot_your_password: Parolanızı mı unuttunuz?
+        sign_in: Giriş yap
+        sign_in_with_provider: ! '%{provider} ile giriş yap'
+        sign_up: Kaydol
+    unlocks:
+      new:
+        resend_unlock_instructions: Hesap geri açma talimatlarını tekrar gönder
