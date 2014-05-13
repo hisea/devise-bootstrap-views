@@ -7,11 +7,11 @@
     <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
     <div class="form-group">
       <%= f.label :email %>
-      <%= f.email_field :email, class: "form-control"  %>
+      <%= f.email_field :email, class: "form-control" %>
     </div>
     <div class="form-group">
       <%= f.label :password %> <i>(<%= t('.leave_blank_if_you_don_t_want_to_change_it', :default => "leave blank if you don't want to change it") %>)</i><br />
-      <%= f.password_field :password, :autocomplete => "off" %>
+      <%= f.password_field :password, :autocomplete => "off", class: "form-control" %>
     </div>
     <div class="form-group">
       <%= f.label :password_confirmation %><br />
