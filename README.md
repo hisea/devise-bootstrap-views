@@ -38,7 +38,7 @@ will generate `config/locales/devise.views.it.yml`.
 The `devise:views:bootstrap_templates` generator will copy all views to your application, so you can modify the files as you wish:
 
 ``` sh
-rails g devise:views:i18n_templates
+rails g devise:views:bootstrap_templates
 ```
 
 ## Contributing
