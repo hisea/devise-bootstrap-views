@@ -24,7 +24,11 @@ And then execute:
 
 Add some minor css fix to your rails asset pipeline manifest
 
+    # SASS
     *= require devise_bootstrap_views
+
+    # LESS
+    *= require devise_bootstrap_views_less
 
 Then you need to install the required translations in your `config/locales`. You can do this either manually (downloading them from [devise-i18n-views/locales](https://github.com/mcasimir/devise-i18n-views/tree/master/locales)) or through the apposite generator `devise:views:locale`, eg.
 
