@@ -20,7 +20,7 @@ pt-BR:
         action: Desbloquear minha conta
         greeting: Olá %{recipient}!
         instruction: ! 'Clique no link abaixo para desbloquear sua conta:'
-        message: Sua conta foi bloqueada devido ao excessivo número de tentativas acesso inválidas.
+        message: Sua conta foi bloqueada devido ao excessivo número de tentativas de acesso inválidas.
         subject: Instruções de desbloqueio
     passwords:
       new:
@@ -42,10 +42,10 @@ pt-BR:
       links:
         didn_t_receive_confirmation_instructions: Não recebeu instruções de confirmação?
         didn_t_receive_unlock_instructions: Não recebeu instruções de desbloqueio?
-        forgot_your_password: Equeceu sua senha?
+        forgot_your_password: Esqueceu sua senha?
         sign_in: Login
         sign_in_with_provider: Entrar com %{provider}
         sign_up: Inscrever-se
     unlocks:
       new:
-        resend_unlock_instructions: Renviar instruções de desbloqueio
+        resend_unlock_instructions: Reenviar instruções de desbloqueio
