@@ -1,0 +1,56 @@
+uk:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: "Надіслати повторного листа з активацією"
+    mailer:
+      confirmation_instructions:
+        action: "Активувати"
+        greeting: "Привіт \"%{recipient}\"!"
+        instruction: 'Ви можете активувати свій обліковий запис, натиснувши на посилання знизу:'
+        subject: "Активація облікового запису"
+      reset_password_instructions:
+        action: "Змінити пароль"
+        greeting: "Привіт \"%{recipient}!\""
+        instruction: "Ви (або хтось ще) запитали зміну паролю. Для зміни паролю натисксніть на посилання нижче:"
+        instruction_2: "Якщо ви не запитували зміну паролю - ігноруйте це повідомлення"
+        instruction_3: "Ваш пароль не зміниться поки ви не натиснете на посилання і не введете новий."
+        subject: "Запит на зміну паролю"
+      unlock_instructions:
+        action: "Розблокувати обліковий запис"
+        greeting: "Привіт \"%{recipient}!\""
+        instruction: "Натисніть на посилання для активації облікового запису:"
+        message: "Ваш обліковий запис був заблокований у зв\'язку з перевищенням ліміту невдалих спроб входу."
+        subject: "Інструкції для розблокування облікового запису"
+    passwords:
+      new:
+        forgot_your_password: "Забули пароль?"
+        send_me_reset_password_instructions: "Надіслати новий пароль"
+      edit:
+        change_your_password: "Змінити пароль"
+        new_password: "Новий пароль"
+        confirm_new_password: "Повторіть новий пароль"
+        change_my_password: "Змінити мій пароль"    
+    registrations:
+      edit:
+        are_you_sure: "Ви впевнеі?"
+        cancel_my_account: "Видалити обліковий запис"
+        leave_blank_if_you_don_t_want_to_change_it: "залиште поле порожнім, якщо не хочете нічого міняти"
+        title: "Редагувати \"%{resource}\""
+        we_need_your_current_password_to_confirm_your_changes: "введіть поточний пароль для підтвердження змін"
+      new:
+        sign_up: "Реєстрація"
+    sessions:
+      new:
+        sign_in: "Ввійти"
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: "Не отримали підтвердження?"
+        didn_t_receive_unlock_instructions: "Не отримали код для розблокування?"
+        forgot_your_password: "Забули пароль?"
+        sign_in: "Ввійти"
+        sign_in_with_provider: "Ввійти за допомогою: \"%{provider}\""
+        sign_up: "Реєстрація"
+    unlocks:
+      new:
+        resend_unlock_instructions: "Надіслати підтвердження ще раз"
