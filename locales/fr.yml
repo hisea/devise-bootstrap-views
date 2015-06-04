@@ -6,20 +6,20 @@ fr:
     mailer:
       confirmation_instructions:
         action: Confirmer mon email
-        greeting: Bienvenue %{recipient}!
-        instruction: ! 'Vous pouvez confirmer votre email grâce au lien ci-dessous:'
+        greeting: Bienvenue %{recipient} !
+        instruction: ! 'Vous pouvez confirmer votre email grâce au lien ci-dessous :'
         subject: Instructions pour confirmer votre compte
       reset_password_instructions:
         action: Changer mon mot de passe
-        greeting: Bonjour %{recipient}!
+        greeting: Bonjour %{recipient} !
         instruction: ! 'Quelqu''un a demandé un lien pour changer votre mot de passe, le voici :'
-        instruction_2: Si vous n'avez pas émis cette demande, merci d'ignore cet email.
+        instruction_2: Si vous n'avez pas émis cette demande, merci d'ignorer cet email.
         instruction_3: Votre mot de passe ne changera pas tant que vous n'aurez pas cliqué sur ce lien et renseigné un nouveau mot de passe.
         subject: Instructions pour réinitialiser votre mot de passe
       unlock_instructions:
         action: Débloquer mon compte
-        greeting: Bonjour %{recipient}!
-        instruction: ! 'Suivez ce lien pour débloquer votre compte:'
+        greeting: Bonjour %{recipient} !
+        instruction: ! 'Suivez ce lien pour débloquer votre compte :'
         message: Votre compte a été bloqué suite à un nombre d'essais de connexions manqués trop important
         subject: Instructions pour débloquer votre compte
     passwords:
