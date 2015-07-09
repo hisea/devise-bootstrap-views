@@ -61,6 +61,7 @@ en:
         we_need_your_current_password_to_confirm_your_changes: "we need your current password to confirm your changes"
         update: "Update"
         unhappy: "Unhappy"
+        back: "Back"
       new:
         sign_up: "Sign up"
       destroyed: "Bye! Your account was successfully cancelled. We hope to see you again soon."
