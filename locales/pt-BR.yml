@@ -26,6 +26,11 @@ pt-BR:
       new:
         forgot_your_password: Esqueceu sua senha?
         send_me_reset_password_instructions: Enviar instruções para redefinição da senha
+      edit:
+        change_your_password: Altere sua senha
+        new_password: Nova senha
+        confirm_new_password: Confirme a nova senha
+        change_my_password: Alterar minha senha
     registrations:
       edit:
         are_you_sure: Você tem certeza?
