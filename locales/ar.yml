@@ -1,0 +1,112 @@
+﻿ar:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: "أعدْ إرسال تعليمات التأكيد"
+      confirmed: "تم تأكيد حسابك بنجاح"
+      send_instructions: "ستستلم بريدًا إلكترونيًا بالتعليمات حول كيفية تأكيد حسابك خلال دقائق."
+      send_paranoid_instructions: "إن كان بريدك الإلكتروني موجود في قاعدة البيانات، ستستلم بريدًا إلكترونيًا بالتعليمات حول كيفية حول تأكيد حسابك خلال دقائق."
+    failure:
+      already_authenticated: "أنت بالفعل مسجّلًا دخولك."
+      inactive: "لم يُفعّل حسابك بعد."
+      invalid: "البريد الإلكتروني أو كلمة السر غير صالحة"
+      invalid_token: "توثيق غير صالح"
+      locked: "قُفل حسابك"
+      not_found_in_database: "البريد الإلكتروني أو كلمة السر غير صالحة"
+      timeout: "انتهت صالحية الجلسة. فضلًا سجّل دخولك مرّة أخرى للمتابعة."
+      unauthenticated: "يتوجّب تسجيل الدخول أو التسجيل قبل المتابعة."
+      unconfirmed: "يتوجّب تأكيد حسابك قبل المتابعة."
+    mailer:
+      confirmation_instructions:
+        action: "أكّد حسابي"
+        greeting: "مرحبًا %{recipient}"
+        instruction: "يمكن تأكيد حساب بريدك الإلكتروني من خلال الرابط التّالي:"
+        subject: "تعليمات التأكيد"
+      reset_password_instructions:
+        action: "غيّر كلمة السر"
+        greeting: "مرحبًا %{recipient}!"
+        instruction: "طلب أحدهم رابطًا لتغيير كلمة السر الخاصة بك، ويُمكن عمل ذلك من خلال الرابط التالي."
+        instruction_2: "إن لم تكن أنت من طلب هذا، من فضلك تجاهل هذه الرسالة."
+        instruction_3: "لن تتغيّر كلمة السر الخاصة بك حتى تتبع الرابط السابق وتُنشئ كلمة سر جديدة."
+        subject: "تعليمات تصفير كلمة المرور"
+      unlock_instructions:
+        action: "أزل الحظر عن حسابي"
+        greeting: "مرحبًا %{recipient}"
+        instruction: "انقرْ الرابط على الرابط التالي لفك الحظر عن حسابك:"
+        message: "قُفل حسابك بسبب المحاولات الفاشلة في تسجيل الدخول."
+        subject: "تعليمات فك الحظر"
+    omniauth_callbacks:
+      failure: "لم يتم تصديقك من %{kind} بسبب \"%{reason}\"."
+      success: "صُدّق بنجاح من الحساب %{kind}."
+    passwords:
+      new:
+        forgot_your_password: "هل نسيت كلمة المرور؟"
+        send_me_reset_password_instructions: "أرسلْ لي تعليمات تصفير كلمة المرور"
+      edit:
+        change_your_password: "غيّر كلمة المرور الخاصة بك"
+        new_password: "كلمة سر جديدة"
+        confirm_new_password: "أكّد كلمة السر الجديدة"
+        change_my_password: "غيّر كلمة المرور خاصتي"
+      no_token: "لا يُمكن الدّخول إلى هذه الصفحة إلّا بإستخدام رسالة تصفير كلمة المرور. إن كان الوصول لهذه الصفحة عبر تلك الرسالة فالرجاء التأكد من فتح كامل الرابط بشكل صحيح."
+      send_instructions: "ستصل خلال دقائق رسالة بريد إلكتروني تحوي التعليمات اللازمة لإعادة ضبط كلمة السر."
+      send_paranoid_instructions: "إذا كان بريدك الإلكتروني مسجلاً عندنا فستصل إليه خلال دقائق رسالة تتضمّن رابطاً لاستعادة كلمة المرور."
+      updated: "لقد تمّ تغيير كلمة المرور بنجاح، وتم تسجيل الدخول."
+      updated_not_active: "تمّ تعديل كلمة المرور بنجاح."
+    registrations:
+      edit:
+        are_you_sure: "هل أنت متأكّد؟"
+        cancel_my_account: "ألغِ حسابي"
+        leave_blank_if_you_don_t_want_to_change_it: "أبقه فارغًا إن كنت لا ترغب في تغييره"
+        title: "تعديل %{resource}"
+        we_need_your_current_password_to_confirm_your_changes: "نحتاج كلمة المرور الحالية خاصتك لتأكيد تغيراتك"
+        update: "تحديث"
+        unhappy: "غير راضٍ؟"
+        back: "عودة"
+      new:
+        sign_up: "سجّلْ"
+      destroyed: "لقد تمّت إزالة الحساب، نأمل في نتقابل مجدداً في وقت قريب، إلى اللقاء!"
+      signed_up: "تمّ التسجيل في الموقع بنجاح، أهلاً وسهلاً!"
+      signed_up_but_inactive: "تمّ التسجيل في الموقع بنجاح، ولكن لا يُمكن تسجيل الدخول قبل تفعيل الحساب."
+      signed_up_but_locked: "تمّ التسجيل في الموقع بنجاح، ولكن لا يمكن تسجيل الدخول ?ن الحساب مُعلّق."
+      signed_up_but_unconfirmed: "تمّ إرسال رسالة تحوي على رابط تأكيد الحساب باستخدام البريد الإلكتروني، يُرجى فتح الرابط لتفعيل الحساب."
+      update_needs_confirmation: "تُم تعديل الحساب بنجاح، يرجى تأكيد البريد الإلكتروني. الرجاء الذهاب الى البريد الإلكتروني والضغط على الرابط الموجود للانتهاء من عمليّة التاكيد."
+      updated: "تمّ تعديل الحساب بنجاح."
+    sessions:
+      signed_in: "تمّ تسجيل الدخول."
+      signed_out: "تمّ تسجيل الخروج."
+      new:
+        sign_in: "تسجيل الدخول"
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: "ألم تستلم تعليمات التأكيد؟"
+        didn_t_receive_unlock_instructions: "ألم تستلم تعليمات فك الحظر؟"
+        forgot_your_password: "هل نسيت كلمة المرور؟"
+        sign_in: "سجّلْ الدخول"
+        sign_in_with_provider: "سجّلْ الدخول عن طريق %{provider}"
+        sign_up: "سجّلْ"
+    unlocks:
+      new:
+        resend_unlock_instructions: "أعدْ إرسال تعليمات فك الحظر"
+      send_instructions: "خلال بضعة دقائق، سوف تصل رسالة بالتعليمات اللازمة لإعادة تفعيل الحساب."
+      send_paranoid_instructions: "إذا كان الحساب موجوداً، ستصل رسالة خلال دقائق تتضمّن الارشادات عن كيفيّة التفعيل."
+      unlocked: "لقد تمّ فتح الحساب بنجاح. الرجاء الدخول للاستمرار."
+  errors:
+    messages:
+      already_confirmed: "الحساب مُفعّل، الرجاء محاولة تسجيل الدخول"
+      confirmation_period_expired: "بحاجة الى تفعيل خلال %{period}، الرجاء طلب تفعيل"
+      expired: "انتهت الصلاحيّة، الرجاء عمل طلب جديد"
+      not_found: "غير موجود"
+      not_locked: "غير مقفل"
+      not_saved:
+        one: "يوجد خطأ واحد منع هذا %{resource} من الحفظ:"
+        other: "%{count} من الأخطاء منعت هذا %{resource} من الحفظ:"
+  activerecord:
+    models:
+      user: "مستخدم"
+    attributes:
+      user:
+        current_sign_in_at: "سُجّل عند"
+        email: "البريد الإلكتروني"
+        password: "كلمة المرور"
+        last_sign_in_at: "تسجيل الدخول الأخير عند"
+
