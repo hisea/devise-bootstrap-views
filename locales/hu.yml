@@ -6,7 +6,7 @@ hu:
     mailer:
       confirmation_instructions:
         action: Fiók megerősítése
-        greeting: Kedves %{reciipient}!
+        greeting: Kedves %{recipient}!
         instruction: ! 'A fiók megerősítéséhez rá kell kattintani az alábbi linkre:'
         subject: A fiók megerősítéséhez szükséges teendők
       reset_password_instructions:
