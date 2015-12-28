@@ -46,6 +46,10 @@ The `devise:views:bootstrap_templates` generator will copy all views to your app
 rails g devise:views:bootstrap_templates
 ```
 
+## Example
+
+Sample Application can be found at this link - [Devise Boostrap Views Application](https://github.com/ethiraj-srinivasan/devise-boostrap-views)
+
 ## Contributing
 
 1. Fork it ( https://github.com/hisea/devise-bootstrap-views/fork )
