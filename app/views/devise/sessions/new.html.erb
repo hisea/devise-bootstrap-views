@@ -15,7 +15,7 @@
       <% if devise_mapping.rememberable? %>
         <div class="checkbox">
           <%= f.label :remember_me do %>
-            <%= f.check_box :remember_me %>remember me
+            <%= f.check_box :remember_me %> <%= t('.remember_me', :default => "Remember me") %>
           <% end %>
         </div>
       <% end %>
