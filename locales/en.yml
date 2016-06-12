@@ -76,6 +76,7 @@ en:
       signed_out: "Signed out successfully."
       new:
         sign_in: "Sign in"
+        remember_me: "Remember me"
     shared:
       links:
         didn_t_receive_confirmation_instructions: "Didn't receive confirmation instructions?"

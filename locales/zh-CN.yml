@@ -45,6 +45,7 @@ zh-CN:
     sessions:
       new:
         sign_in: 登录
+        remember_me: 记住我
     shared:
       links:
         didn_t_receive_confirmation_instructions: 没有收到确认指令？
