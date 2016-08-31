@@ -1,9 +1,12 @@
 module Devise
   module Views
     class LocaleGenerator < Rails::Generators::NamedBase
-      source_root File.expand_path('../../../../../../locales', __FILE__)
-      def copy_locale
-        copy_file("#{name}.yml", Rails.root.join("config", "locales", "devise.views.#{name}.yml"))
+      def download_locale
+        repo_url = 'https://raw.githubusercontent.com/tigrish/devise-i18n/master/rails/locales/'
+        download_url = URI.parse("#{repo_url}#{name}.yml")
+        downloaded_file = Net::HTTP.get(download_url).force_encoding('UTF-8')
+        File.write(Rails.root.join(
+          "config", "locales", "devise.views.#{name}.yml"), downloaded_file)
       end
     end
   end
