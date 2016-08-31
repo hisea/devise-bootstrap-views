@@ -30,7 +30,7 @@ Add some minor css fix to your rails asset pipeline manifest
     # LESS
     *= require devise_bootstrap_views_less
 
-Then you need to install the required translations in your `config/locales`. You can do this either manually (downloading them from [devise-i18n-views/locales](https://github.com/mcasimir/devise-i18n-views/tree/master/locales)) or through the apposite generator `devise:views:locale`, eg.
+Then you need to install the required translations in your `config/locales`. The  [devise-i18n-views](https://github.com/mcasimir/devise-i18n-views) project is no longer maintained after being merged into [devise-i18n](https://github.com/tigrish/devise-i18n), which is currently the best source for updated Devise translations. You can manually download locale dictionaries from [devise-i18n/rails/locales](https://github.com/tigrish/devise-i18n/tree/master/rails/locales) or generate them by running `devise:views:locale <chosen_locale>`:
 
 ``` sh
 rails g devise:views:locale it
