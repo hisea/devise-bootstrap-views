@@ -12,9 +12,10 @@
   </div>
 
   <% if devise_mapping.rememberable? %>
-    <div class="checkbox">
-      <%= f.label :remember_me do %>
-        <%= f.check_box :remember_me %> <%= t('.remember_me', default: 'Remember me') %>
+    <div class="form-check">
+      <%= f.label :remember_me, class: 'form-check-label' do %>
+        <%= f.check_box :remember_me, class: 'form-check-input' %>
+        <%= t('.remember_me', default: 'Remember me') %>
       <% end %>
     </div>
   <% end %>
