@@ -2,9 +2,9 @@
 
 Here are some of the highlights:
 
-* Devise views with Bootstrap 3.
-* Used Bootstrap responsive columns.
-* I18n Support.
+* Devise views with Bootstrap 4
+* Used Bootstrap responsive columns
+* I18n Support
 
 WARNING:
 This gem copies lots of its code from [devise-i18n-views](https://github.com/mcasimir/devise-i18n-views) gem.
@@ -22,18 +22,10 @@ And then execute:
 
     $ bundle
 
-Add some minor css fix to your rails asset pipeline manifest
-
-    # SASS
-    *= require devise_bootstrap_views
-
-    # LESS
-    *= require devise_bootstrap_views_less
-
-Then you need to install the required translations in your `config/locales`. The  [devise-i18n-views](https://github.com/mcasimir/devise-i18n-views) project is no longer maintained after being merged into [devise-i18n](https://github.com/tigrish/devise-i18n), which is currently the best source for updated Devise translations. You can manually download locale dictionaries from [devise-i18n/rails/locales](https://github.com/tigrish/devise-i18n/tree/master/rails/locales) or generate them by running `devise:views:locale <chosen_locale>`:
+Then you can install the required translations in your `config/locales`. Use [devise-i18n](https://github.com/tigrish/devise-i18n) — the best source for updated Devise translations. You can manually generate locale files by executing `rails generate devise:views:locale <chosen_locale>`:
 
 ``` sh
-rails g devise:views:locale it
+rails generate devise:views:locale it
 ```
 
 will generate `config/locales/devise.views.it.yml`.
@@ -43,7 +35,7 @@ will generate `config/locales/devise.views.it.yml`.
 The `devise:views:bootstrap_templates` generator will copy all views to your application, so you can modify the files as you wish:
 
 ``` sh
-rails g devise:views:bootstrap_templates
+rails generate devise:views:bootstrap_templates
 ```
 
 ## Example
