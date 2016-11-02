@@ -1,5 +1,6 @@
 require 'rails'
 require 'devise_bootstrap_views_helper'
+
 module DeviseBootstrapViews
   class Engine < ::Rails::Engine
   end
@@ -24,5 +25,3 @@ module DeviseBootstrapViews
     end
   end
 end
-
-
