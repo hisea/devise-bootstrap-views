@@ -8,7 +8,9 @@
     <%= f.email_field :email, autofocus: true, class: "form-control"  %>
   </div>
 
-  <%= f.submit t('.resend_confirmation_instructions', default: 'Resend confirmation instructions'), class: 'btn btn-primary' %>
+  <div class="form-group">
+    <%= f.submit t('.resend_confirmation_instructions', default: 'Resend confirmation instructions'), class: 'btn btn-primary' %>
+  </div>
 <% end %>
 
 <%= render 'devise/shared/links' %>

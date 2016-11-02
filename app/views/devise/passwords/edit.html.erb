@@ -15,7 +15,9 @@
     <%= f.password_field :password_confirmation, class: 'form-control'  %>
   </div>
 
-  <%= f.submit t('.change_my_password', default: 'Change my password'), class: 'btn btn-primary' %>
+  <div class="form-group">
+    <%= f.submit t('.change_my_password', default: 'Change my password'), class: 'btn btn-primary' %>
+  </div>
 <% end %>
 
 <%= render 'devise/shared/links' %>
