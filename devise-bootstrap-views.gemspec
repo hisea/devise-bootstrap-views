@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = DeviseBootstrapViews::VERSION
   spec.authors       = ['Yinghai Zhao']
   spec.email         = ['zyinghai@gmail.com']
-  spec.summary       = %q{Devise Bootstrap views with i18n support.}
-  spec.description   = %q{Devise Bootstrap views with i18n support.}
-  spec.homepage      = ''
+  spec.summary       = %q{Bootstrap views for Devise.}
+  spec.description   = %q{Bootstrap views for Devise with I18n support.}
+  spec.homepage      = 'https://github.com/hisea/devise-bootstrap-views'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.6'
-  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rake', '~> 11.0'
 end
