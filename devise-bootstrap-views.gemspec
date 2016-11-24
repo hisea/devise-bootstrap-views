@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = DeviseBootstrapViews::VERSION
   spec.authors       = ['Yinghai Zhao']
   spec.email         = ['zyinghai@gmail.com']
-  spec.summary       = %q{Bootstrap views for Devise.}
-  spec.description   = %q{Bootstrap views for Devise with I18n support.}
+  spec.summary       = 'Bootstrap views for Devise.'
+  spec.description   = 'Bootstrap views for Devise with I18n support.'
   spec.homepage      = 'https://github.com/hisea/devise-bootstrap-views'
   spec.license       = 'MIT'
 

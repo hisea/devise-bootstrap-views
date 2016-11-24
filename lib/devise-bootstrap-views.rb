@@ -17,8 +17,6 @@ module DeviseBootstrapViews
       end
     end
 
-    protected
-
     def self.pattern_from(args)
       array = Array(args || [])
       array.blank? ? '*' : "{#{array.join ','}}"
