@@ -1,0 +1,11 @@
+= bootstrap_devise_error_messages!
+.panel.panel-default.devise-bs
+  .panel-heading
+    %h4= t('.resend_confirmation_instructions', default: 'Resend confirmation instructions')
+  .panel-body
+    = form_for(resource, as: resource_name, url: confirmation_path(resource_name), html: { method: :post, role: 'form' }) do |f|
+      .form-group
+        = f.label :email
+        = f.email_field :email, autofocus: true, class: "form-control"
+      = f.submit t('.resend_confirmation_instructions', default: 'Resend confirmation instructions'), class: 'btn btn-primary'
+= render 'devise/shared/links'
