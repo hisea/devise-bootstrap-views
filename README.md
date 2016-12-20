@@ -45,7 +45,15 @@ The `devise:views:bootstrap_templates` generator will copy all views to your app
 ``` sh
 rails g devise:views:bootstrap_templates
 ```
+Alternatively, you can also generate HAML or Slim templates instead of traditional ERB. Both can be generated with their respective commands below.
 
+``` sh
+rails g devise:views:bootstrap_haml_templates
+```
+
+``` sh
+rails g devise:views:bootstrap_slim_templates
+```
 ## Example
 
 Sample Application can be found at this link - [Devise Boostrap Views Application](https://github.com/ethiraj-srinivasan/devise-boostrap-views)
