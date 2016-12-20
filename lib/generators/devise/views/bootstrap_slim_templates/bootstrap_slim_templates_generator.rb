@@ -1,9 +1,9 @@
 module Devise
   module Views
-    class BootstrapTemplatesGenerator < Rails::Generators::Base
+    class BootstrapSlimTemplatesGenerator < Rails::Generators::Base
       source_root File.expand_path('../../../../../../app/views', __FILE__)
       def copy_views
-         directory("erb", Rails.root.join("app", "views", "devise"))
+         directory("slim", Rails.root.join("app", "views", "devise"))
       end
     end
   end
