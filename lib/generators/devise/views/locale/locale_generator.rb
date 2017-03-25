@@ -1,3 +1,5 @@
+require 'net/http'
+
 module Devise
   module Views
     class LocaleGenerator < Rails::Generators::NamedBase
