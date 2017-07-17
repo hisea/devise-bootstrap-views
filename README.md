@@ -14,6 +14,11 @@ This gem copies lots of its code from [devise-i18n-views](https://github.com/mca
 
 ## Installation
 
+Add these lines in the head tag of your application.html.erb:
+    
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.css">
+
 Add this line to your application's Gemfile:
 
     gem 'devise-bootstrap-views'
