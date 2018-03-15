@@ -59,6 +59,32 @@ rails g devise:views:bootstrap_haml_templates
 ``` sh
 rails g devise:views:bootstrap_slim_templates
 ```
+
+## Remove devise-bootstrap-views
+If you would like to remove devise-bootstrap-views, please follow the steps below
+
+1. Remove `gem devise-bootstrap-views` from Gemfile
+2. Delete Gemfile.lock
+3. Command `bundle install`
+4. Remove the contexts below from your stylesheets
+
+    ```sh
+    # SASS
+    *= require devise_bootstrap_views
+
+    # LESS
+    *= require devise_bootstrap_views_less
+    ```
+
+5. Remove devise view files 
+    ```sh
+    rails destroy devise:views
+    ```
+6. Generate devise view files again
+    ```sh
+    rails g devise:views
+    ```
+
 ## Example
 
 Sample Application can be found at this link - [Devise Boostrap Views Application](https://github.com/ethiraj-srinivasan/devise-boostrap-views)
