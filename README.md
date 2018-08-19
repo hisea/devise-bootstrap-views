@@ -15,7 +15,7 @@ This gem copies lots of its code from [devise-i18n-views](https://github.com/mca
 ## Installation
 
 Add these lines in the head tag of your application.html.erb:
-    
+
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.css">
 
@@ -50,7 +50,6 @@ The `devise:views:bootstrap_templates` generator will copy all views to your app
 ``` sh
 rails g devise:views:bootstrap_templates
 ```
-Alternatively, you can also generate Haml or Slim templates instead of traditional ERB. Both can be generated with their respective commands below.
 
 ``` sh
 rails g devise:views:bootstrap_haml_templates
@@ -76,7 +75,7 @@ If you would like to remove devise-bootstrap-views, please follow the steps belo
     *= require devise_bootstrap_views_less
     ```
 
-5. Remove devise view files 
+5. Remove devise view files
     ```sh
     rails destroy devise:views
     ```
