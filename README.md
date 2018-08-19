@@ -2,26 +2,32 @@
 
 Here are some of the highlights:
 
-* Devise views with Bootstrap 4
-* Used Bootstrap responsive columns
-* I18n Support
+- Devise views with Bootstrap 4
+- Used Bootstrap responsive columns
+- I18n Support
 
-WARNING:
+***WARNING***
+
 This gem copies lots of its code from [devise-i18n-views](https://github.com/mcasimir/devise-i18n-views) gem.
 
 ## Screenshot
+
 ![Screenshot](https://raw.githubusercontent.com/hisea/devise-bootstrap-views/master/Screenshot.png)
 
 ## Installation
 
-Add these lines in the head tag of your application.html.erb:
+Make sure Bootstrap 4 is installed, either as a Ruby gem or using CDN:
 
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.css">
+```html
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+```
+
 
 Add this line to your application's Gemfile:
 
-    gem 'devise-bootstrap-views'
+```ruby
+gem 'devise-bootstrap-views', '~> 1.0'
+```
 
 And then execute:
 
@@ -30,10 +36,10 @@ And then execute:
 Then you can install the required translations in your `config/locales`. Use [devise-i18n](https://github.com/tigrish/devise-i18n) — the best source for updated Devise translations. You can manually generate locale files by executing `rails generate devise:views:locale <chosen_locale>`:
 
 ``` sh
-rails generate devise:views:locale it
+rails generate devise:views:locale de
 ```
 
-will generate `config/locales/devise.views.it.yml`.
+will generate `config/locales/devise.views.de.yml`.
 
 ## Customizing Views
 
@@ -43,21 +49,13 @@ The `devise:views:bootstrap_templates` generator will copy all views to your app
 rails generate devise:views:bootstrap_templates
 ```
 
-``` sh
-rails g devise:views:bootstrap_haml_templates
-```
+## Remove Devise Bootstrap views
 
-``` sh
-rails g devise:views:bootstrap_slim_templates
-```
-
-## Remove devise-bootstrap-views
-If you would like to remove devise-bootstrap-views, please follow the steps below
+If you would like to remove `devise-bootstrap-views`, please follow the steps below:
 
 1. Remove `gem devise-bootstrap-views` from Gemfile
-2. Delete Gemfile.lock
-3. Command `bundle install`
-4. Remove the contexts below from your stylesheets
+2. Command `bundle install`
+3. Remove the contexts below from your stylesheets
 
     ```sh
     # SASS
@@ -67,11 +65,11 @@ If you would like to remove devise-bootstrap-views, please follow the steps belo
     *= require devise_bootstrap_views_less
     ```
 
-5. Remove devise view files
+4. Remove devise view files
     ```sh
     rails destroy devise:views
     ```
-6. Generate devise view files again
+5. Generate devise view files again
     ```sh
     rails g devise:views
     ```
