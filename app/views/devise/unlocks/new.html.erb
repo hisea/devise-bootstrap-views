@@ -2,7 +2,7 @@
 
 <h1><%= t('.resend_unlock_instructions', default: 'Resend unlock instructions') %></h1>
 
-<%= form_for(resource, as: resource_name, url: unlock_path(resource_name), html: { method: :post, html: { role: 'form' } }) do |f| %>
+<%= form_for(resource, as: resource_name, url: unlock_path(resource_name), html: { method: :post }) do |f| %>
   <div class="form-group">
     <%= f.label :email %>
     <%= f.email_field :email, autofocus: true, class: 'form-control' %>

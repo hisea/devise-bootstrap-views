@@ -2,7 +2,7 @@
 
 <h1><%= t('.resend_confirmation_instructions', default: 'Resend confirmation instructions') %></h1>
 
-<%= form_for(resource, as: resource_name, url: confirmation_path(resource_name), html: { method: :post, role: 'form' }) do |f| %>
+<%= form_for(resource, as: resource_name, url: confirmation_path(resource_name), html: { method: :post }) do |f| %>
   <div class="form-group">
     <%= f.label :email %>
     <%= f.email_field :email, autofocus: true, class: "form-control"  %>

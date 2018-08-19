@@ -7,14 +7,17 @@
     <%= f.label :email %>
     <%= f.email_field :email, autofocus: true, class: 'form-control' %>
   </div>
+
   <div class="form-group">
     <%= f.label :password %> <i>(<%= t('.leave_blank_if_you_don_t_want_to_change_it', default: "leave blank if you don't want to change it") %>)</i>
     <%= f.password_field :password, autocomplete: "off", class: 'form-control' %>
   </div>
+
   <div class="form-group">
     <%= f.label :password_confirmation %>
     <%= f.password_field :password_confirmation, class: 'form-control'  %>
   </div>
+
   <div class="form-group">
     <%= f.label :current_password %> <i>(<%= t('.we_need_your_current_password_to_confirm_your_changes', default: 'we need your current password to confirm your changes') %>)</i>
     <%= f.password_field :current_password, class: 'form-control' %>

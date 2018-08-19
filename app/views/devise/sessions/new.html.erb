@@ -1,7 +1,7 @@
 <h1><%= t('.sign_in', default: 'Sign in') %></h1>
 
 
-<%= form_for(resource, as: resource_name, url: session_path(resource_name), html: { role: 'form' }) do |f| %>
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="form-group">
     <%= f.label :email %>
     <%= f.email_field :email, autofocus: true, class: 'form-control' %>
@@ -12,9 +12,9 @@
   </div>
 
   <% if devise_mapping.rememberable? %>
-    <div class="form-check">
+    <div class="form-group form-check">
+      <%= f.check_box :remember_me, class: 'form-check-input' %>
       <%= f.label :remember_me, class: 'form-check-label' do %>
-        <%= f.check_box :remember_me, class: 'form-check-input' %>
         <%= t('activerecord.attributes.user.remember_me', default: 'Remember me') %>
       <% end %>
     </div>
