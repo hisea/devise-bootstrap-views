@@ -31,7 +31,7 @@ gem 'devise-bootstrap-views', '~> 1.0'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Then you can install the required translations in your `config/locales`. Use [devise-i18n](https://github.com/tigrish/devise-i18n) — the best source for updated Devise translations. You can manually generate locale files by executing `rails generate devise:views:locale <chosen_locale>`:
 
@@ -45,28 +45,9 @@ will generate `config/locales/devise.views.de.yml`.
 
 The `devise:views:bootstrap_templates` generator will copy all views to your application, so you can modify the files as you wish:
 
-``` sh
-rails generate devise:views:bootstrap_templates
+```sh
+$ rails generate devise:views:bootstrap_templates
 ```
-
-## Remove Devise Bootstrap views
-
-If you would like to remove `devise-bootstrap-views`, please follow the steps below:
-
-1. Remove `gem devise-bootstrap-views` from Gemfile
-2. Command `bundle install`
-3. Remove devise view files
-    ```sh
-    rails destroy devise:views
-    ```
-4. Generate devise view files again
-    ```sh
-    rails g devise:views
-    ```
-
-## Example
-
-Sample Application can be found at this link - [Devise Boostrap Views Application](https://github.com/ethiraj-srinivasan/devise-boostrap-views)
 
 ## Contributing
 
