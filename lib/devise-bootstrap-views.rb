@@ -1,5 +1,6 @@
 require 'rails'
 require 'devise_bootstrap_views_helper'
+
 module DeviseBootstrapViews
   class Engine < ::Rails::Engine
   end
@@ -16,13 +17,9 @@ module DeviseBootstrapViews
       end
     end
 
-    protected
-
     def self.pattern_from(args)
       array = Array(args || [])
       array.blank? ? '*' : "{#{array.join ','}}"
     end
   end
 end
-
-
