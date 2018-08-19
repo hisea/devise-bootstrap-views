@@ -55,21 +55,11 @@ If you would like to remove `devise-bootstrap-views`, please follow the steps be
 
 1. Remove `gem devise-bootstrap-views` from Gemfile
 2. Command `bundle install`
-3. Remove the contexts below from your stylesheets
-
-    ```sh
-    # SASS
-    *= require devise_bootstrap_views
-
-    # LESS
-    *= require devise_bootstrap_views_less
-    ```
-
-4. Remove devise view files
+3. Remove devise view files
     ```sh
     rails destroy devise:views
     ```
-5. Generate devise view files again
+4. Generate devise view files again
     ```sh
     rails g devise:views
     ```
