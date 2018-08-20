@@ -1,8 +1,8 @@
-<%= bootstrap_devise_error_messages! %>
-
 <h1><%= t('.sign_up', default: 'Sign up') %></h1>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= bootstrap_devise_error_messages! %>
+
   <div class="form-group">
     <%= f.label :email %>
     <%= f.email_field :email, autofocus: true, class: 'form-control' %>

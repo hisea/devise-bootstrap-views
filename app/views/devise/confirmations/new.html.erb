@@ -1,8 +1,8 @@
-<%= bootstrap_devise_error_messages! %>
-
 <h1><%= t('.resend_confirmation_instructions', default: 'Resend confirmation instructions') %></h1>
 
 <%= form_for(resource, as: resource_name, url: confirmation_path(resource_name), html: { method: :post }) do |f| %>
+  <%= bootstrap_devise_error_messages! %>
+
   <div class="form-group">
     <%= f.label :email %>
     <%= f.email_field :email, autofocus: true, class: "form-control"  %>
