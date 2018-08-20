@@ -2,13 +2,29 @@ en:
   activerecord:
     attributes:
       user:
+        confirmation_sent_at: Confirmation sent at
+        confirmation_token: Confirmation token
+        confirmed_at: Confirmed at
+        created_at: Created at
         current_password: Current password
+        current_sign_in_at: Current sign in at
+        current_sign_in_ip: Current sign in IP
         email: Email
+        encrypted_password: Encrypted password
+        failed_attempts: Failed attempts
+        last_sign_in_at: Last sign in at
+        last_sign_in_ip: Last sign in IP
+        locked_at: Locked at
         password: Password
         password_confirmation: Password confirmation
+        remember_created_at: Remember created at
         remember_me: Remember me
+        reset_password_sent_at: Reset password sent at
         reset_password_token: Reset password token
+        sign_in_count: Sign in count
+        unconfirmed_email: Unconfirmed email
         unlock_token: Unlock token
+        updated_at: Updated at
     models:
       user: User
   devise:
@@ -21,10 +37,10 @@ en:
     failure:
       already_authenticated: You are already signed in.
       inactive: Your account is not activated yet.
-      invalid: Invalid email or password.
+      invalid: Invalid %{authentication_keys} or password.
       last_attempt: You have one more attempt before your account is locked.
       locked: Your account is locked.
-      not_found_in_database: Invalid email address or password.
+      not_found_in_database: Invalid %{authentication_keys} or password.
       timeout: Your session expired. Please sign in again to continue.
       unauthenticated: You need to sign in or sign up before continuing.
       unconfirmed: You have to confirm your email address before continuing.
@@ -34,6 +50,10 @@ en:
         greeting: Welcome %{recipient}!
         instruction: 'You can confirm your account email through the link below:'
         subject: Confirmation instructions
+      email_changed:
+        greeting: Hello %{recipient}!
+        message: We're contacting you to notify you that your email is being changed to %{email}.
+        subject: Email Changed
       password_change:
         greeting: Hello %{recipient}!
         message: We're contacting you to notify you that your password has been changed.
@@ -76,7 +96,7 @@ en:
         currently_waiting_confirmation_for_email: 'Currently waiting confirmation for: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: leave blank if you don't want to change it
         title: Edit %{resource}
-        unhappy: Unhappy
+        unhappy: Unhappy?
         update: Update
         we_need_your_current_password_to_confirm_your_changes: we need your current password to confirm your changes
       new:
@@ -90,7 +110,7 @@ en:
     sessions:
       already_signed_out: Signed out successfully.
       new:
-        sign_in: Sign in
+        sign_in: Log in
       signed_in: Signed in successfully.
       signed_out: Signed out successfully.
     shared:
@@ -99,9 +119,12 @@ en:
         didn_t_receive_confirmation_instructions: Didn't receive confirmation instructions?
         didn_t_receive_unlock_instructions: Didn't receive unlock instructions?
         forgot_your_password: Forgot your password?
-        sign_in: Sign in
+        sign_in: Log in
         sign_in_with_provider: Sign in with %{provider}
         sign_up: Sign up
+      minimum_password_length:
+        one: "(%{count} character minimum)"
+        other: "(%{count} characters minimum)"
     unlocks:
       new:
         resend_unlock_instructions: Resend unlock instructions
