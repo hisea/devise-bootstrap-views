@@ -3,14 +3,8 @@
 Here are some of the highlights:
 
 - Devise views with Bootstrap 4
-- Used Bootstrap responsive columns
-- I18n Support
-
-***WARNING***
-
-This gem copies lots of its code from [devise-i18n-views](https://github.com/mcasimir/devise-i18n-views) gem.
-
-## Screenshot
+- Responsive layout
+- I18n support
 
 ![Screenshot](https://raw.githubusercontent.com/hisea/devise-bootstrap-views/master/Screenshot.png)
 
@@ -33,13 +27,9 @@ And then execute:
 
     $ bundle install
 
-Then you can install the required translations in your `config/locales`. Use [devise-i18n](https://github.com/tigrish/devise-i18n) — the best source for updated Devise translations. You can manually generate locale files by executing `rails generate devise:views:locale <chosen_locale>`:
+## I18n
 
-``` sh
-rails generate devise:views:locale de
-```
-
-will generate `config/locales/devise.views.de.yml`.
+Install [devise-i18n](https://github.com/tigrish/devise-i18n) for other locales. Make sure to insert `gem 'devise-i18n'` before `gem 'devise-bootstrap-view'`, see [#55](https://github.com/hisea/devise-bootstrap-views/issues/55).
 
 ## Customizing Views
 
