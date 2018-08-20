@@ -1,33 +1,37 @@
-<h1><%= t('.title', resource: resource_class.model_name.human , default: "Edit #{resource_name.to_s.humanize}") %></h1>
+<h1><%= t('.title', resource: resource_name.to_s.humanize) %></h1>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= bootstrap_devise_error_messages! %>
 
   <div class="form-group">
     <%= f.label :email %>
-    <%= f.email_field :email, autofocus: true, class: 'form-control' %>
+    <%= f.email_field :email, autofocus: true, autocomplete: 'email', class: 'form-control' %>
   </div>
 
   <div class="form-group">
-    <%= f.label :password %> <i>(<%= t('.leave_blank_if_you_don_t_want_to_change_it', default: "leave blank if you don't want to change it") %>)</i>
-    <%= f.password_field :password, autocomplete: "off", class: 'form-control' %>
+    <%= f.label :password %>
+    <%= f.password_field :password, autocomplete: 'new-password', class: 'form-control' %>
+
+    <small class="form-text text-muted"><%= t('.leave_blank_if_you_don_t_want_to_change_it') %></small>
   </div>
 
   <div class="form-group">
     <%= f.label :password_confirmation %>
-    <%= f.password_field :password_confirmation, class: 'form-control'  %>
+    <%= f.password_field :password_confirmation, autocomplete: 'new-password', class: 'form-control'  %>
   </div>
 
   <div class="form-group">
-    <%= f.label :current_password %> <i>(<%= t('.we_need_your_current_password_to_confirm_your_changes', default: 'we need your current password to confirm your changes') %>)</i>
-    <%= f.password_field :current_password, class: 'form-control' %>
+    <%= f.label :current_password %>
+    <%= f.password_field :current_password, autocomplete: 'current-password', class: 'form-control' %>
+
+    <small class="form-text text-muted"><%= t('.we_need_your_current_password_to_confirm_your_changes') %></small>
   </div>
 
   <div class="form-group">
-    <%= f.submit t('.update', default: 'Update'), class: 'btn btn-primary' %>
+    <%= f.submit t('.update'), class: 'btn btn-primary' %>
   </div>
 <% end %>
 
-<p><%= t('.unhappy', default: 'Unhappy') %>? <%= link_to t('.cancel_my_account', default: 'Cancel my account'), registration_path(resource_name), data: { confirm: t('.are_you_sure', default: "Are you sure?") }, method: :delete %>.</p>
+<p><%= t('.unhappy') %>? <%= link_to t('.cancel_my_account'), registration_path(resource_name), data: { confirm: t('.are_you_sure') }, method: :delete %>.</p>
 
-<%= link_to t('.back', default: 'Back'), :back %>
+<%= link_to t('.back'), :back %>
