@@ -29,7 +29,7 @@ And then execute:
 
 ## I18n
 
-Install [devise-i18n](https://github.com/tigrish/devise-i18n) for other locales. Make sure to insert `gem 'devise-i18n'` before `gem 'devise-bootstrap-view'`, see [#55](https://github.com/hisea/devise-bootstrap-views/issues/55).
+Install [devise-i18n](https://github.com/tigrish/devise-i18n) for other locales. Make sure to insert `gem 'devise-i18n'` before `gem 'devise-bootstrap-views'`, see [#55](https://github.com/hisea/devise-bootstrap-views/issues/55).
 
 ## Customizing Views
 
