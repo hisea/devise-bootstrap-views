@@ -39,6 +39,10 @@ The `devise:views:bootstrap_templates` generator will copy all views to your app
 $ rails generate devise:views:bootstrap_templates
 ```
 
+## Next Steps
+
+There's a [wikipage](https://github.com/hisea/devise-bootstrap-views/wiki/Adding-header,-footer-and-flash-afterwards) about adding a header (nav), footer and flash messages
+
 ## Contributing
 
 1. Fork it ( https://github.com/hisea/devise-bootstrap-views/fork )
